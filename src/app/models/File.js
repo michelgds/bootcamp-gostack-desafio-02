@@ -1,14 +1,11 @@
 import Sequelize, { Model } from 'sequelize';
 
-class Student extends Model {
+class File extends Model {
   static init(sequelize) {
     super.init(
       {
         name: Sequelize.STRING,
-        email: Sequelize.STRING,
-        age: Sequelize.INTEGER,
-        weight: Sequelize.FLOAT,
-        height: Sequelize.FLOAT,
+        path: Sequelize.STRING,
       },
       {
         sequelize,
@@ -19,4 +16,4 @@ class Student extends Model {
   }
 }
 
-export default Student;
+export default File;
