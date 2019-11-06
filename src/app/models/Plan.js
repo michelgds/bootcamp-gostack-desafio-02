@@ -5,7 +5,7 @@ class Plan extends Model {
     super.init(
       {
         title: Sequelize.STRING,
-        price: Sequelize.DECIMAL,
+        price: Sequelize.FLOAT,
         duration: Sequelize.INTEGER,
         active: Sequelize.BOOLEAN,
       },
@@ -13,6 +13,8 @@ class Plan extends Model {
         sequelize,
       }
     );
+
+    return this;
   }
 }
 
