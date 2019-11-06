@@ -22,7 +22,7 @@ Abaixo estão descritas as funcionalidades que foram adicionadas na aplicação 
 
 #### 1. Gestão de planos
 
-Permite que o usuário possa cadastrar planos para matrícula de alunos, o plano deve possuir os seguintes campos:
+Permite que o usuário possa cadastrar planos para matrícula de alunos, o plano possui os seguintes campos:
 
 - title (nome do plano);
 - duration (duração em número de meses);
